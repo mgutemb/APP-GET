@@ -1,4 +1,4 @@
-/**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 - Token SENAC*/
+/**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 - Token SENAC*/
 /*Importação de Fontes*/
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
@@ -54,6 +54,8 @@ input[type=number]{
 #atividade{
     margin-bottom: 25px;
     padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #cc470d;
 }
 input[type=button] {
     padding: 10px 25px 10px 25px;
@@ -84,6 +86,7 @@ input[type=reset] {
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 35px;
 }
 #calorias{
     font-size: 2em;
@@ -108,7 +111,7 @@ input[type=reset] {
     /*border: 1px solid #00ff00;*/
     position: relative;
     transform: rotate(-135deg);
-    margin-left: 50px;
+    margin-left: 40px;
     animation: pulsar 0.7s infinite alternate;
     z-index: -1;
 }
